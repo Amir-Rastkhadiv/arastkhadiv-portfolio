@@ -1,6 +1,6 @@
 <h1 align="center">arastkhadiv-portfolio</h1>
 
-[View the live project here.](https://#)
+[View my profile here.](https://amir-rastkhadiv.github.io/arastkhadiv-portfolio/
 
 This web page is just an HTML and CSS essential portfolio mock project for practising purposes.
 ## User Experience (UX)
