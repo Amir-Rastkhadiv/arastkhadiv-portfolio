@@ -1,18 +1,83 @@
-<<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
+
+<!--Same on all pages including meta , links and title tags-->    
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Title</title>
+
+    <!--The meta tags is going to be same on all pages -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here">
+
+    <!--link html to Bootstarp, fontawesome and our custome css style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <!--Same on all pages including meta , links -->
+    <title>Amir</title>
+
+
+
 </head>
+
+<!-- Body element : Including header, section and the footer-->
 <body>
+
+    <!-- The header is going to be the same across each page-->
+    <header>
+
+        <!-- Rember the direct child of the Bottstrap row has to have a column class-->
+        <div class="row no-gutters">
+            <!-- The logo must be a link to the main page. -->
+            <a href="index.html"  class="col-md-4 logo">
+                
+            </a>
+            <div class="col-md-8">
+                <div class="row no-gutters bg-color-name-title">
+                    <div class="col heading">
+                        <h1 class="name">Amir Rastkhadivmasouleh</h1>
+                        <h2 class="title"> Full Stack Developer</h2>
+                    </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
+                                <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menuitem">
+                                <a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
+                                <a href="#"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menuitem">
+                                <a href="#"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--The section will contain unique content for each page-->
+     <section>
+
+     </section>
+
+    <!--The footer will be repeated across each page-->  
+     <footer>
+
+     </footer>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
