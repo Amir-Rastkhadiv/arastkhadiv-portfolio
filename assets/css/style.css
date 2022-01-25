@@ -1,4 +1,4 @@
-/* File path: /workspace/fun-gym/assets/css/style.css */
+/* File path: /workspace/arastkhadiv-portfolio/assets/css/style.css */
 
 /* Two fonts  namely Robota Sans and Exo with different weights */
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
@@ -6,6 +6,10 @@
 /*----------------------------------------------------------------Color--*/
 .bg-color-name-title {
     background-color: #676767;
+}
+
+bg-color-three-reasons {
+    background-color: #fff;
 }
 
 .ui-menu-color-home {
@@ -135,6 +139,21 @@ header {
     letter-spacing: 2px;
 }
 
+.row-table {
+    display: table;
+}
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 /*----------------------------------------------------------------Hover.css--*/
 
 .hvr-sweep-to-bottom:before {
@@ -174,7 +193,7 @@ footer {
     width: 32px;
     height: 32px;
     padding: 12px 0;
-    border-radius: 50;
+    border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
