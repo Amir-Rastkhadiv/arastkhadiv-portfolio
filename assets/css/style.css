@@ -256,10 +256,10 @@ footer {
     margin-bottom: 15px;
 }
 
-.three-reasons-heading p {
+p,
+.three-reasons-heading {
     text-align: justify;
 }
-
 
 /*-------------------------------------------------------------- Personal-Info  */
 
