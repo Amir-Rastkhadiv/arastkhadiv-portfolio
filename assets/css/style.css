@@ -15,6 +15,7 @@
 .bg-color-work-history {
     background-color: #9b59b6;
 }
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -169,6 +170,7 @@ header {
 .row-table {
     display: table;
 }
+
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
@@ -181,6 +183,7 @@ header {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
 /*----------------------------------------------------------------Hover.css--*/
 
 .hvr-sweep-to-bottom:before {
@@ -232,6 +235,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 
 }
+
 .social-links li a i:hover {
     background: #e81640;
 
@@ -252,6 +256,11 @@ footer {
     margin-bottom: 15px;
 }
 
+.three-reasons-heading p {
+    text-align: justify;
+}
+
+
 /*-------------------------------------------------------------- Personal-Info  */
 
 .personal-info-item {
@@ -261,13 +270,13 @@ footer {
 
 }
 
-.personal-info-item .key, 
+.personal-info-item .key,
 .personal-info-item .value {
     padding-right: 8px;
     display: inline-block;
 }
 
-.personal-info-item .key p, 
+.personal-info-item .key p,
 .personal-info-item .value p {
     margin: 0;
 }
@@ -426,4 +435,3 @@ button[type="submit"] {
         max-width: 50%;
     }
 }
-
