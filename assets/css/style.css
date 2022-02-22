@@ -256,8 +256,8 @@ footer {
     margin-bottom: 15px;
 }
 
-p,
-.three-reasons-heading {
+
+.three-reasons-heading.p {
     text-align: justify;
 }
 
