@@ -443,15 +443,3 @@ button[type="submit"] {
         max-width: 50%;
     }
 }
-
-/* -----------------------------------------------------------Footer */
-
-body {
-    display: grid;
-    grid-template-rows: 1fr auto;
-    min-height: 100vh;
-}
-
-footer {
-    grid-row: 2;
-}
