@@ -443,3 +443,19 @@ button[type="submit"] {
         max-width: 50%;
     }
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    height: auto;
+    /* or set a specific height if needed */
+    margin-top: auto;
+}
